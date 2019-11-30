@@ -1,0 +1,33 @@
+
+.wrapper {
+     display: flex;
+     flex-direction: column;
+     background-color:#3f51b5;
+     color:rgb(255,255,153);
+     min-height: 100vh;
+     padding-top:0px;
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     overflow: hidden;
+   }
+   
+   .page-main {
+     flex-grow: 1;
+     height: 80%;
+   }
+   
+   .page-header {
+      padding-top: 0px;
+      height: 10%;
+   }
+   
+   .page-footer {
+     padding-top: 0px;
+     height: 10%;
+   }
+   
+     body {
+       display: flex;
+       flex-direction: column;
+     }
